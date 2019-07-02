@@ -1,0 +1,160 @@
+/* Styling for posts */
+
+p.date{
+	font-family: sans-serif;
+	color: #757575;
+	padding-bottom: 8px;
+}
+
+p.event_loc{
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+	font-size: 1.5em;
+	color: #222;
+	text-decoration: none;
+	/*padding-top: 8px;
+	padding-bottom: 8px;*/
+}
+
+p.title{
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+	font-weight: bold;
+	font-size: 3em;
+	color: #222;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	text-align: center;
+}
+
+p a.routes{
+	color: #212121;
+}
+
+a.article{
+	color: #757575;
+}
+
+p.subtitle{
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+	font-weight: bold;
+	font-size: 2em;
+	color: #222;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+p.para{
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+	font-size: 1.5em;
+	color: #222;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	text-align: center;
+}
+
+pre{
+	font-family: monospace;
+}
+
+img.ctnt{
+	width: 100%;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+ul.p_list{
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+	font-size: 1.5em;
+	color: #222;
+}
+
+p.author_name{
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+	font-size: 1.8em;
+	color: #222;
+	padding-top: 8px;
+}
+
+p.author_bio{
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+	font-size: 1.5em;
+	color: #333;
+}
+
+p.tags{
+	font-family: sans-serif;
+	font-style: italic;
+	color: #757575;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+p.footer{
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+	font-size: 1em;
+	color: #616161;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+hr.footer{
+	border-top: 1px solid #bdbdbd;
+}
+
+/* Index header caption */
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 7px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+.caption span.border0 {
+  background-color: #000;
+  color: #fff;
+  padding: 7px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+/* List of posts */
+
+div.posts_div{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+
+/* ========================= Footer =============================== */
+
+
+.box{
+  position:relative;
+}
+
+.img-title{
+  position: absolute;
+  color: #fff;
+  text-align: center;
+  left: 0;
+  right: 0;
+  top: 20%;
+  letter-spacing: 2px;
+}
